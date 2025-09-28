@@ -1,5 +1,6 @@
 <?php
 
+
 class Animal
 {
 
@@ -21,8 +22,6 @@ class Animal
     public function faireLeShow()
     {
         echo " cet animal " . $this->regimeAlimentaire . " qui est un " .  $this->typeAnimal  . " et s’appelle " . $this->nomAnimal . "fait le show ! <br><br>";
-    
-    
     }
 
 public function donnerNaissance(){
@@ -30,11 +29,7 @@ public function donnerNaissance(){
 }
 
 
-
-
 }
-
-
 
 
 ?>
